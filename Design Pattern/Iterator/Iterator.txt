@@ -1,0 +1,33 @@
+﻿
+동일한 형태의 데이터 항목을 여러개 가지고 있는것을 Container / Aggregator
+
+Aggregator(Container) 종류
+
+Array
+Linked List
+Tree
+Graph
+Table (DBMS)
+.....
+
+Aggregator 내부 구조가 종류에 따라 다르다
+
+통일된 하나의 방법으로 구성데이터를 가져오기 위해 사용하는 패턴
+
+• 객체 내부 표현 방식을 모르고도 집합 객체의 각 원소들에 접근하고 싶을 때 
+• 집합 객체를 순회하는 다양한 방법을 지원하고 싶을 때 
+• 서로 다른 집합 객체 구조에 대해서도 동일한 방법으로 순회하고 싶을 때 
+
+https://drive.google.com/file/d/1YQIHCbDlxd-a5NWTu2g-c7UGwW5XbEvB/view?usp=sharing
+해당 자료는 Iterator 클래스 다이어그램 UML에서 정의한 다이어그램 중 하나
+
+
+https://da-nyee.github.io/posts/java-stream/
+내부 반복자 vs 외부반복자
+
+https://hongjinhyeon.tistory.com/51
+C# Iterator 구현1
+
+https://www.dofactory.com/net/iterator-design-pattern
+C# ITerator 구현2
+
