@@ -1,4 +1,7 @@
 ﻿
+행동
+반복자 패턴 ( Iterator )
+
 동일한 형태의 데이터 항목을 여러개 가지고 있는것을 Container / Aggregator
 
 Aggregator(Container) 종류
@@ -30,4 +33,5 @@ C# Iterator 구현1
 
 https://www.dofactory.com/net/iterator-design-pattern
 C# ITerator 구현2
+
 
