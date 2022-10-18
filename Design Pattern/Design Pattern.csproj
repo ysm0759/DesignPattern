@@ -43,14 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Iterator\Interface\Aggregator.cs" />
-    <Compile Include="Iterator\Array.cs" />
-    <Compile Include="Iterator\ArrayIterator.cs" />
-    <Compile Include="Iterator\Item.cs" />
+    <Compile Include="Iterator\ConcreteAggregate.cs" />
+    <Compile Include="Iterator\ConcreteIterator.cs" />
+    <Compile Include="Iterator\Interface\Aggregate.cs" />
     <Compile Include="Iterator\Interface\Iterator.cs" />
     <Compile Include="Iterator\IteratorMain.cs" />
-    <Compile Include="Iterator\List.cs" />
-    <Compile Include="Iterator\ListIterator.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Design_Pattern.Iterator
+namespace Design_Pattern.Iterator.Interface
 {
-    public interface Aggregator
+    public abstract class Aggregate
     {
-        Iterator Iterator();
+        public abstract Iterator CreateIterator();
     }
 }
