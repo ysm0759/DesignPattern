@@ -9,9 +9,13 @@
 동일 계열의 알고리즘군 혹은 행동군을 정의한다. 이런 알고리즘 자체의 재사용도 가능하다.
 상속을 통해서 알고리즘 공통의 기능성들을 추출하고 이를 재사용할 수 있다.
  
+
+subclassing  (어떤 객체의 일부 기능을 원하는 다른 기능으로 바꾸어주는 기법을 말한다.)
+
 2. 서브클래싱을 사용하지 않는 대안이다.
 알고리즘을 Strategy 클래스로 독립시키면 Context와 무관하게 알고리즘을 변형시킬 수 있고, 
 알고리즘을 이해하기 쉽고 바꾸거나 확장하기도 쉽다.
+
 
 3. 조건문을 없앨 수 있다.
 원하는 행동들을 선택하는 조건문을 없앨 수 있다. 서로 다른 행동이 하나로 묶이면 조건문을
@@ -70,3 +74,8 @@ Strategy를 구현하여 이런 불필요한 오버헤드를 줄일 수도 있�
 
 https://drive.google.com/file/d/1L2WTUTGWd65yOnmCo4j8ylSy2HU7neZb/view?usp=sharing
 Strategy 클래스 다이어그램
+
+
+
+https://www.dofactory.com/net/strategy-design-pattern
+Strategy 패턴 구현
