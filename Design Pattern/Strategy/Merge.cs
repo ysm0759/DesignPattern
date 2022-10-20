@@ -39,10 +39,10 @@ namespace Design_Pattern.Strategy
             int mid;
             if (left < right)
             {
-                mid = (left + right) / 2; // 중간 위치를 계산하여 리스트를 균등 분할 -분할(Divide)
-                MergeSort(array, left, mid); // 앞쪽 부분 리스트 정렬 -정복(Conquer)
-                MergeSort(array, mid + 1, right); // 뒤쪽 부분 리스트 정렬 -정복(Conquer)
-                merge(array, left, mid, right); // 정렬된 2개의 부분 배열을 합병하는 과정 -결합(Combine)
+                mid = (left + right) / 2; 
+                MergeSort(array, left, mid); 
+                MergeSort(array, mid + 1, right); 
+                merge(array, left, mid, right);
             }
         }
 
@@ -76,10 +76,10 @@ namespace Design_Pattern.Strategy
             }
 
             // 배열 sorted[](임시 배열)의 리스트를 배열 list[]로 재복사
-
-            array = tmpArray;
-
-
+            for (l = left; l <= right; l++)
+            {
+                array[l] = tmpArray[l];
+            }
         }
 
     }
