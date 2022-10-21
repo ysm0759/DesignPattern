@@ -43,6 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Bridge\BridgeMain.cs" />
+    <Compile Include="Bridge\Customers.cs" />
+    <Compile Include="Bridge\CustomersBase.cs" />
+    <Compile Include="Bridge\CustomersData.cs" />
+    <Compile Include="Bridge\Interface\DataObject.cs" />
     <Compile Include="Iterator\ConcreteAggregate.cs" />
     <Compile Include="Iterator\ConcreteIterator.cs" />
     <Compile Include="Iterator\Interface\Aggregate.cs" />
@@ -61,8 +66,10 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="ClassDiagram1.cd" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Bridge\Bridge.txt" />
     <Content Include="Iterator\Iterator.txt" />
     <Content Include="Singleton\Singleton.txt" />
     <Content Include="Strategy\Strategy.txt" />

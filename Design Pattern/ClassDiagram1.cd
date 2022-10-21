@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Design_Pattern.Program" Collapsed="true">
+    <Position X="12.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Design_Pattern.Bridge.BridgeMain" Collapsed="true">
+    <Position X="9" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Bridge\BridgeMain.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Design_Pattern.Bridge.Customers" Collapsed="true">
+    <Position X="6.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bridge\Customers.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Design_Pattern.Bridge.CustomersBase" Collapsed="true">
+    <Position X="6.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgKAEAAAAAAAAAAAAAAAAAAAAAEEABgAAAAAAAAAAAA=</HashCode>
+      <FileName>Bridge\CustomersBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Design_Pattern.Bridge.CustomersData" Collapsed="true">
+    <Position X="0.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIABgAAAAAAAAAAACAAAgIAAABABAADAAAAAAAA=</HashCode>
+      <FileName>Bridge\CustomersData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Design_Pattern.Bridge.Interface.DataObject" Collapsed="true">
+    <Position X="0.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAgAAAAAAAAAAAAAAAAIAAABABAADAAAAAAAA=</HashCode>
+      <FileName>Bridge\Interface\DataObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Design_Pattern.Iterator.Interface.ConcreteAggregate" Collapsed="true">
+    <Position X="3.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACCAgAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Iterator\ConcreteAggregate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Design_Pattern.Iterator.Interface.ConcreteIterator" Collapsed="true">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAACAAAAAABQAAAAAAAAAAgABAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Iterator\ConcreteIterator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Design_Pattern.Iterator.Interface.Aggregate" Collapsed="true">
+    <Position X="3.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Iterator\Interface\Aggregate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Design_Pattern.Iterator.Interface.Iterator" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAACAAAAAABQAAAAAAAAAAAABAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Iterator\Interface\Iterator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Design_Pattern.Singleton.Singleton" Collapsed="true">
+    <Position X="10.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAAAAAAABABAEAAAAAQAAAAAAAA=</HashCode>
+      <FileName>Singleton\Singleton.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Design_Pattern.Singleton.Server" Collapsed="true">
+    <Position X="9" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAIAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Singleton\Singleton.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Design_Pattern.Singleton.SingletonMain" Collapsed="true">
+    <Position X="12.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Singleton\SingletonMain.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Design_Pattern.Strategy.Bubble" Collapsed="true">
+    <Position X="5.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAQAAEAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Strategy\Bubble.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Design_Pattern.Strategy.Context" Collapsed="true">
+    <Position X="10.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAUAAAAAAAAAAAEAAEgQAAAAAAAAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>Strategy\Context.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Design_Pattern.Strategy.Merge" Collapsed="true">
+    <Position X="0.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAAAAQAAEAAAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>Strategy\Merge.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Design_Pattern.Strategy.StrategyMain" Collapsed="true">
+    <Position X="9" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Strategy\StrategyMain.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Design_Pattern.Strategy.Interface.Insertion" Collapsed="true">
+    <Position X="3" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAQAAEAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Strategy\Insertion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Design_Pattern.Strategy.Interface.SortStrategy" Collapsed="true">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Strategy\Interface\SortStrategy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="맑은 고딕" Size="9" />
+</ClassDiagram>
